@@ -1,0 +1,118 @@
+Python Basics
+      numpy
+      pandas
+      matplotlib
+      seaborn
+
+Machine Learning
+        25+ Algorithms (statistics)
+
+Deep Learning
+        Image Processing (Face Auth / Image Recognization)
+
+NLP (Natural Language Processing)
+        Chat-Bot (Hindi / Telugu)
+
+Generative AI
+
+Agentic AI - LLM'S, Tranformers, RAG, MCP Client,...... 
+
+Three Projects (portfolio)
+
+Deployments (AWS) - CI/CD Pipeline
+
+
+Python
+******
+    Python is the high level programming language
+    Python, used to build
+                1) Web Applications
+                2) Enterprise Applications
+                3) DataScience Applications
+                        Machine Learning
+                        Deep Learning
+                        NLP (Natural language Processing)
+                        Gen AI (Generative AI)
+                        Agentic AI
+                4) Python for Automation also
+    Python is open source
+    Python is platform independent
+    Python supports the "libraries"
+    Ex.
+            numpy (numerical python) --- mathematical operations on lists
+            pandas --- tabular data
+            matplotlib --- plot the graphs 
+            seaborn --- display rich/styled graphs
+            fastapi --- used to develop API's (Rest API's) Ex. GET,POST,PUT,DELETE,.....
+            flask -- web applications
+            uvicorn -- used to run api calls
+            scikit-learn -- develop machine learning applications
+            tensorflow -- develop deep learning applications
+            nltk -- develop nlp applications
+
+    "pip" is the tool, used to download above libraries
+    Ex.
+            pip install numpy pandas
+
+    extension for python files are ".py"
+
+    "python" is the tool, used to execute the python script
+
+            python demo.py
+                (or)
+            python3 demo.py
+
+    IDE Stands for Integrated Development Environment
+    IDE, used to build applications
+    Ex.
+        VSCode (Visual Studio Code)
+        Jupyter Notebook
+        Google Colab
+        Pycharm
+        ---
+        ---
+        ---
+
+download and install python
+
+website : https://www.python.org/downloads/
+
+> python --version (or) python3 --version
+
+2) download and install Visual Studio Code
+    website : https://code.visualstudio.com/download
+
+    Note : enable AutoSave
+                Application, will save automatically
+
+20-may-2026
+***********
+virtual environment
+
+step 1.
+        open the terminal and change from "powershell" to "command prompt"
+        view -> terminal
+        click dropdown -> choose command prompt
+
+
+step 2.
+        create virtual environment
+
+        > python3 -m venv venv314 
+                (or)
+        > python -m venv venv314
+
+step 3.
+        activate virtual environment 
+
+        source venv314/bin/activate (mac)
+        venv314\Scripts\activate (windows)
+
+step 4.
+        create requirements.txt with libraries
+
+step 5.
+        install requirements.txt file
+
+        > pip install -r requirements.txt
+
